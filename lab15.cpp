@@ -27,6 +27,23 @@ public:
 };
 
 int main() {
-    
+    vector<Movie> movieVector;
+
+    ifstream fin;
+    fin.open("input.txt");
+
+    if (fin.good()) {
+        string tempTitle, tempWriter;
+        int tempYear;
+
+        while (fin){
+
+        fin.close();
+    }else {
+        
+        cout << "File not found." << endl;
+    }
+
+}
     return 0;
 }
