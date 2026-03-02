@@ -16,7 +16,13 @@ private:
     string screenWriter;
 
 public:
-   
+   void setTitle(string t)         { title = t; }
+    void setYearReleased(int y)     { yearReleased = y; }
+    void setScreenWriter(string s)  { screenWriter = s; }
+
+    string getTitle()               { return title; }
+    int getYearReleased()           { return yearReleased; }
+    string getScreenWriter()        { return screenWriter; }
 
 };
 
