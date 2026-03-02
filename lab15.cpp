@@ -37,7 +37,12 @@ int main() {
         int tempYear;
 
         while (fin){
-
+         if (!getline(fin, tempTitle)) {
+             break;
+         }
+        fin >> tempYear;
+        fin.ignore();
+        getline(fin, tempWriter);
         fin.close();
     }else {
         
