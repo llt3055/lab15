@@ -44,6 +44,13 @@ int main() {
         fin.ignore();
         getline(fin, tempWriter);
         fin.close();
+        
+//define a temp Movie object and set its data members using the setters
+        Movie tempMovie;
+            tempMovie.setTitle(tempTitle);
+            tempMovie.setYearReleased(tempYear);
+            tempMovie.setScreenWriter(tempWriter);
+            movieVector.push_back(tempMovie);
     }else {
         
         cout << "File not found." << endl;
