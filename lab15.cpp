@@ -65,3 +65,8 @@ int main() {
 }
     return 0;
 }
+//explanation upon the long interval between the 1st and 2nd commit:
+// i turned off the vs code auto save smh after i done all my commit 
+//and push work i found out there's only one commit in the repo, 
+//that's when i realized the issue and had to restart again 
+//and make sure saved before every commit.
